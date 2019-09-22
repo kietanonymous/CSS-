@@ -1,0 +1,24 @@
+// css
+.container .mot-cai-gi-do {
+    color: #f00;
+    background: #000;
+    border: none;
+    border-radius: 3px;
+}
+
+.container .mot-cai-gi-do .con-cua-mot-cai-gi-do {
+    color: #f00;
+}
+
+// hay scss
+.container {
+    .mot-cai-gi-do {
+        color: #f00;
+        background: #000;
+        border: none;
+        border-radius: 3px;
+        .con-cua-mot-cai-gi-do {
+            color: #f00;
+        }
+    }
+}
